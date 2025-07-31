@@ -1,0 +1,51 @@
+{
+  "homepage": "https://github.com/0xNezha",
+  "name": "0xNezha",
+  "version": "0.1.1",
+  "private": true,
+  "dependencies": {
+    "@react95/clippy": "^2.0.2",
+    "@react95/core": "^9.2.1",
+    "@react95/icons": "^2.0.4",
+    "@tanstack/react-query": "^5.83.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "@zama-fhe/relayer-sdk": "^0.2.0-2",
+    "ethers": "^6.15.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "sass": "^1.81.0",
+    "styled-components": "^6.1.13",
+    "vite": "^6.0.1",
+    "wagmi": "^2.16.0",
+    "yarn": "^1.22.10"
+  },
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -b master -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "eslint-config-react-app": "^7.0.1",
+    "gh-pages": "^6.2.0",
+    "prettier": "3.4.1",
+    "vite-plugin-eslint": "^1.8.1"
+  }
+}

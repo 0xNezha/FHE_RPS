@@ -1,2 +1,1 @@
-# FHE_RPS
-Rock-Paper-Scissors Based on Fully Homomorphic Encryption.
+# Rock-Paper-Scissors Game Based on Fully Homomorphic Encryption.
